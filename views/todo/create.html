@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Todo List: create </title>
+        <meta charset="utf-8"/>
+    </head>
+    <style type="text/CSS">
+        h1{
+            text-align: center;
+            color:darkcyan;
+            background-blend-mode: difference;
+            background-color:black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    
+    <body>
+        <h1>The <i>CREATE</i> page<h1>
+            <form action="./api/create" method="post">
+            <div>
+                <label for = "todo">Enter your new todo:</label>
+                <input type = "text" id="todo" name = "todo">
+            </div>
+            <div class="Button">
+                <button type="submit"> Add</button>
+            </div>
+            </form>  
+    </body>
+</html>

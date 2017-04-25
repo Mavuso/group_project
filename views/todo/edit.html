@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Edit page by mshukas</title>
+    </head>
+    <style type= "text/css">
+        h1{
+            color: skyblue;
+            background-color: black;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+    <body>
+        <h1> Edit page</h1>
+        <form action='./api/edit' method="POST">
+        <div>
+            <label for="edit_index"> Enter the index of the TODO you want to edit:</label>
+            <input type="number" id ="edit_index" name ="edit_index">
+        </div>
+        <div>
+            <label for= "edit"> Enter the new todo:</label>
+            <input type = "text" id = "edit" name = "edit">
+        </div>
+        <div class = "button">
+            <button type = "submit"> Change</button>
+    </body>
+</html>

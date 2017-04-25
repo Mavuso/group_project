@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title> Delete by the MSHUKAS</title>
+    <meta charset="utf-8"/>
+</head>
+
+<style type="text/css">
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: darkslategray;
+        background-color: khaki;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>The <del>delete</del> page </h1>
+    <form action='./api/delete' method = "post">
+    <div>
+        <label for="index"> Enter index:</label>
+        <input type="number" id = "index" name = "index">
+    </div>
+        <div class = "button">
+            <button type="submit"> Delete</button>
+        </div>
+    </form>
+</body>
+</html>

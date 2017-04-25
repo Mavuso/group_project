@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index by MSHUKAS</title>
+    <script type="text/javascript" src="/cdn/libraries/jquery.js"></script><!-- the jQuery lib-->
+    <script type="text/javascript" src="/cdn/scripts/todo/index.js"></script><!--Js code for this page-->
+    <link rel="stylesheet" href = "/cdn/styles/main.css">
+    <style type="text/css">
+        h1{
+            background-color:darkslategray;
+            color:moccasin;
+            font-family:Arial;
+            text-align: center;
+        }
+
+        h3{
+            column-rule-color: rosybrown;
+            font-family: cursive
+        }
+
+    
+    </style>
+    </head>
+    <body>
+        <h1>Stuff i need to do:</h1>
+        <ol id="todoList"></ol>
+
+        <div id="addDiv">
+        <b> new todo:</b>
+        <input type="text" id="newTodoInput"></input>
+        <button type="button" id="addTodoButton">Add</button>
+        </div>
+
+        <br></br>    
+        <br></br>    
+        
+        <div id="delDiv">
+        <b>Delete todo:</b>    
+        <input type="number" id="deleteIndex"></input>
+        <button type="button" id="delButton">Delete</button>
+        </div>
+        
+        <br></br>        
+        <br></br>
+        
+        <div id="editDiv">
+        <b>Edit todo:</b>
+        New todo do:
+        <input type= "text" id = "editInput"></input> 
+        Old todo:
+        <input type="number" id="editIndex"></input>        
+        <button type="button" id="editButton">Edit</button>
+        <div>
+    </body>
+</html>
